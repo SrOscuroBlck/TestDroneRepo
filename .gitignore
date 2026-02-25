@@ -1,0 +1,13 @@
+*.o
+*.obj
+*.exe
+*.out
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+x64/
+Debug/
+Release/
+.vs/
+*.sarif
