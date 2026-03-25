@@ -40,3 +40,4 @@ jobs:
           llm-api-key: ${{ secrets.LLM_API_KEY }}
           llm-effort: "low"
           llm-max-retries: "1"
+          llm-discover: "true"
