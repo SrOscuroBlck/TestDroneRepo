@@ -34,3 +34,10 @@ jobs:
           fail-on: "critical"
           top-k: "5"
           comment-on-pr: "true"
+          analysis-mode: ${{ secrets.LLM_API_KEY && 'hybrid' || 'expert' }}
+          llm-provider: "openai"
+          llm-model: "gpt-5-mini"
+          llm-api-key: ${{ secrets.LLM_API_KEY }}
+          llm-effort: "low"
+          llm-max-retries: "1"
+          llm-discover: "true"
